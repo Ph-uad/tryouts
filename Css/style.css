@@ -150,7 +150,7 @@ h1,h2,h3 {padding: 1rem;}
 
 /* Media Queries */
 @media (max-width: 900px) {
-  body{font-size: ;}
+  body{font-size: 55%;}
   #navbar {
     display: block;
   }
@@ -160,6 +160,24 @@ h1,h2,h3 {padding: 1rem;}
   header div:nth-child(1) .item2 p {
     font-size: xx-small;
   }
+
+  .board-video{
+         width: 0;
+         height: 0;
+         display: none;
+  }
+
+.b-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.item2-paragraph{
+  display: block;
+  width: 100vw;
+  padding: 0 2rem;
+}
+
   header div:nth-child(1).item1 h2 {font-size: 0.8rem;}
   header div:nth-child(1).item1 p {
     font-weight: 100;
@@ -203,7 +221,7 @@ h1,h2,h3 {padding: 1rem;}
 }
 
 #gallery .g-container .card {
-  background: #f4f4f4;
+  background: #cfcece;
   border-radius: 7px;
 
   transition: .4s ease-in;
