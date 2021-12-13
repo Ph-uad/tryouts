@@ -1,6 +1,5 @@
 # tryouts
 Author Adebowale Phuad 
 Essense Html and CSS basic 
-Responsive No 
-Dark Mode not Effective 
+Responsive Yes
 Essence: Layout and design
